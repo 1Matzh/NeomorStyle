@@ -1,0 +1,58 @@
+/*
+    < TEMA - CLARO >
+*/
+
+body {
+    background-color: #e6e6e6;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.neumorphic-button {
+    background-color: #e6e6e6;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px #c1c1c1, -4px -4px 8px #ffffff;
+    color: #333333;
+    font-size: 20px;
+    padding: 12px 24px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+  
+.neumorphic-button:hover {
+    box-shadow: 2px 2px 4px #c1c1c1, -2px -2px 4px #ffffff;
+}
+  
+.neumorphic-button:active {
+    box-shadow: inset 2px 2px 4px #c1c1c1, inset -2px -2px 4px #ffffff;
+    transform: translateY(1px);
+}
+  
+/*
+    < TEMA - ESCURO >
+*/
+
+.dark-theme {
+  background-color: #333333;
+  color: #f0f0f0;
+}
+  
+.dark-theme .neumorphic-button {
+    background-color: #333333;
+    box-shadow: 4px 4px 8px #2b2b2b, -4px -4px 8px #3b3b3b;
+    color: #f0f0f0;
+}
+
+.dark-theme .neumorphic-button:hover {
+    box-shadow: 2px 2px 4px #2b2b2b, -2px -2px 4px #3b3b3b;
+}
+
+.dark-theme .neumorphic-button:active {
+    box-shadow: inset 2px 2px 4px #2b2b2b, inset -2px -2px 4px #3b3b3b;
+    transform: translateY(1px);
+}
+
+.btn-config {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
